@@ -10,6 +10,15 @@ module.exports = {
         primary: "#990000",
         secondary : '#EDEBEB',
       },
+      backgroundImage: {
+        'sample': "url('/src/Assets/samplegates.png')",
+
+      },
+      backdropOpacity: {
+        '15': '0.15',
+        '35': '0.35',
+        '65': '0.65',
+       }
     },
   },
   plugins: [],
