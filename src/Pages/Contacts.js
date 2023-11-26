@@ -7,9 +7,9 @@ const Contacts = () => {
 <h1 className='text-primary'> Contact Me</h1>
 <br/>
 <h1 className='font-semibold'>IU Public Health Suvo's Lab  </h1>
-<h1>2673 E 7th St</h1>
-<h1>Bloomington, IN 46708 </h1>
-<h1>Phone: (812) 671 5565</h1>
+<h1>1025 E. 7th St.</h1>
+<h1>Bloomington, IN 46705 </h1>
+<h1>Phone: (812) 855 3579</h1>
 
 </div>
   )

@@ -19,7 +19,7 @@ const data = [
   {
     name : "Suvo Chaterjee",
     role : "Professor",
-    desc : " The CEO's role in raising a company's corporate IQ is to establish an atmosphere that promotes knowledge sharing and collaboration.",
+    desc : " My research work resides on developing and applying statistical methodologies in identifying molecular mechanisms associated to disease outcomes with a keen focus on high dimensional data emerging from genomics and electronic health care data. The practical goal of my research is to address various public health concerns and chronic diseases in diverse race/ethnic populations using existing or novel statistical methodologies.",
     github : "https://github.com/schatterjee30",
     email : "suvchat@iu.edu",
     portfolio : "https://publichealth.indiana.edu/research/faculty-directory/profile.html?user=suvchat"
@@ -27,7 +27,7 @@ const data = [
   {
     name : "Vrushab Hanumesh",
     role : "Research Assistant",
-    desc : " The CEO's role in raising a company's corporate IQ is to establish an atmosphere that promotes knowledge sharing and collaboration.",
+    desc : "Results-oriented Computer Science graduate with a Master's degree from Indiana University and a strong background in programming, web development, and data analysis. Proven ability to solve complex problems, optimize systems, and collaborate effectively in team environments. I am a Full stack Web Developer with a years experience working on React, NodeJS, Mysql PERL and Splunk.",
     github : "https://github.com/VrushabHayagreev",
     email : "vrushab1998@gmail.com",
     portfolio : "https://vrushabsportfolio.netlify.app/"
@@ -35,7 +35,7 @@ const data = [
   {
     name : "Siddhant Meshram",
     role : "Research Assistant",
-    desc : " The CEO's role in raising a company's corporate IQ is to establish an atmosphere that promotes knowledge sharing and collaboration.",
+    desc : " As a data science graduate student, I am passionate about utilizing my analytical and technical skills to solve complex problems and make data-driven decisions. My coursework and research have given me a solid foundation in Python, Machine learning, SQL, Tableau, and R. Along with this, I possess excellent communication and decision-making skills, and I am enthusiastic about applying my knowledge and skills to work.",
     github : "https://github.com/Sid-149",
     email : "siddhantmeshram149@gmail.com",
     portfolio : "https://sid-149.github.io/Portfolio/"
@@ -63,11 +63,11 @@ const data = [
               class="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5"
             >
             
-              <div class="rounded overflow-hidden shadow-md bg-white">
-                <div class="absolute -mt-20 w-full flex justify-center">
+              <div class="rounded overflow-hidden h-[500px] shadow-md bg-white">
+                <div class="absolute -mt-20 w-full  flex justify-center">
                   <div class="h-32 w-32">
                     <img
-                      src={sample}
+                      src="https://publichealth.indiana.edu/images/profile/printVersion/suvchat.jpg"
                     alt = ""
                       class="rounded-full object-cover h-full w-full shadow-md"
                     />
@@ -80,10 +80,10 @@ const data = [
                   <p class="text-gray-800 text-sm text-center">
                   {item.role}
                   </p>
-                  <p class="text-center text-gray-600 text-base pt-3 font-normal">
+                  <p class="text-center text-gray-600 h-[300px] text-base text-md pt-3 font-normal">
                   {item.desc}
                   </p>
-                  <div class="w-full flex justify-center pt-5 pb-5">
+                  <div class="w-full flex  justify-center pt-5 pb-5">
                     <a href={item.github} target="_blank" rel="noreferrer" class="mx-5">
                       <div aria-label="Github" role="img">
                         <GitHubIcon />
