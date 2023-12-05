@@ -10,6 +10,8 @@ import Footer from "./Pages/Footer";
 import Affiliation from "./Components/Home/Affiliation";
 import Suvo from "./Components/Home/Suvo";
 import Contact from "./Components/Home/Contact";
+import Talks from "./Pages/Talks";
+import Software from "./Pages/Software";
 function App() {
   return (
     <div className="w-screen  flex flex-col bg-secondary">
@@ -24,6 +26,8 @@ function App() {
           <Route path="/labteam" element={<Lab />} />
           <Route path="/publications" element={<Publication />} />
           <Route path="/blogs" element={<Blogs />} />
+          <Route path="/talks" element={<Talks />} />
+          <Route path="/software" element={<Software />} />
         </Routes>
         {/* <Footer/> */}
     </div>
