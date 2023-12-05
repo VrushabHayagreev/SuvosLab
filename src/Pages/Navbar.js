@@ -4,22 +4,17 @@ import Logo from "../Assets/logo2.png";
 
 const NavBar = () => {
   return (
-    <div className="flex flex-row p-4 w-screen xs:text-xs sm:text-sm md:text-md lg:text-lg lg:h-[110px] md:h-[5rem] sm:h-[4rem] xs:h-[3rem] bg-white rounded-sm shadow-md shadow-gray-500">
-      <div className="flex flex-row w-screen space-x-3  items-center ">
-      <a href="/" >
-          <img className="hidden lg:flex w-[300px] h-[54px] mr-10" alt="" src={Logo} />
-        </a>
-        <div className="flex w-4/5 flex-row justify-between">
+    <div className="flex flex-row  justify-between text-white bg-primary p-4 w-screen xs:text-xs sm:text-sm md:text-md lg:text-lg lg:h-[110px] md:h-[5rem] sm:h-[4rem] xs:h-[3rem]  rounded-sm shadow-md shadow-gray-500">
+   
+   
         <NavItem itemName="about" title="About" />
         <NavItem itemName="research" title="Research" />
         <NavItem itemName="labteam" title="Lab Team" />
         <NavItem itemName="publications" title="Publications" />
-        <NavItem itemName="news" title="News" />
-        <NavItem itemName="resources" title="Resources" />
-        <NavItem itemName="blogs" title="Blogs" />
+        <NavItem itemName="blogs" title="Beyond Academics" />
       </div>
-      </div>
-    </div>
+   
+ 
   );
 };
 

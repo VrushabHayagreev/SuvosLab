@@ -12,10 +12,10 @@ const Dropdown = ({value}) => {
       setAnchorEl(null);
     };
   return (
-    <div className="w-screen h-12 bg-primary p-2 text-white font-semibold text-lg flex flex-row space-x-2">
-    <NavLink to="/">About</NavLink>
-    <h1>{"|"}</h1>
-    <button className="shadow-sm shadow-secondary rounded-md w-[170px]"  onClick={handleClick}>{value}</button>
+    <div className="w-screen h-12 bg-white p-2 text-white font-semibold text-lg flex flex-row space-x-2">
+    <NavLink className="text-black" to="/">About</NavLink>
+    <h1 className="text-black">{"|"}</h1>
+    <button className="shadow-sm bg-primary shadow-secondary rounded-md w-[170px]"  onClick={handleClick}>{value}</button>
     <Menu
       id="basic-menu"
       anchorEl={anchorEl}
